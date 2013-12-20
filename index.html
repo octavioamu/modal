@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modal</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="modal hidden" data-modal="modalid">
+  <%= image_tag("face.png", alt: "bad boy") %>
+
+    <p><b>OPA!</b> Nossos servidores detectaram que você utilizou alguma palavra ofensiva. Tente usar outro termo para continuar seu “Tem Tem”.</p>
+    <a href="" class="btn-modal" data-toggle="modalid" data-effect="hidden">OK, entendi</a>
+  </div>
+  <!-- <div class="overlay hidden" data-modal="modalid"> -->
+  </div>
+      <a href="#" class="btn-modal" data-toggle="modalid" data-effect="hidden">abrir </a>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/modal.js"></script>
+
+</body>
+</html>
